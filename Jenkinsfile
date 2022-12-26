@@ -1,5 +1,6 @@
 
 pipeline {
+// single line    
     agent any
     stages {
         stage('Git checkout') {
@@ -10,4 +11,3 @@ pipeline {
         }
     }
 }
-// single line comment
