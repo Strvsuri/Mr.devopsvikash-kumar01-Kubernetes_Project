@@ -1,6 +1,5 @@
 
-pipeline {
-// single line    
+pipeline {   
     agent any
     stages {
         stage('Git checkout') {
@@ -11,3 +10,4 @@ pipeline {
         }
     }
 }
+// single line 
